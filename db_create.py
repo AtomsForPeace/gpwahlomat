@@ -68,5 +68,14 @@ cur.execute(
         impressum VARCHAR
     )'''
 )
+cur.execute(
+    '''CREATE TABLE benutzer(
+        id SERIAL PRIMARY KEY,
+        username VARCHAR UNIQUE,
+        email VARCHAR UNIQUE,
+        pwdhash VARCHAR,
+        ctime TIMESTAMP default current_timestamp
+    )'''
+)
 con.commit()
 cur.close()
