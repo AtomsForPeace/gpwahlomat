@@ -1,5 +1,45 @@
+@media (min-width: 400px) {
+	h1 {
+		font-size: 2.4rem;		
+	}
+}
+
+/* ++++++++++++++++++++++++ */
+
+.container {
+    background-color: white;
+}
+
+.buttonBox {
+    text-align: center;
+    /* background-color: white; */
+}
+
+a.button.button-primary {
+    background-color: #55AF03;
+    border-color: #55AF03;
+}
+.buttonBox button.approval {
+    background-color: #66CC00;
+}
+
+.buttonBox button.abstinence {
+    background-color: #33C3F0;
+    background-color: hsl(194, 68%, 72%);
+}
+
+.buttonBox button.disapproval {
+    background-color: #E82F2F;
+}
+.question {
+	background-color: white;
+}
+
+
+/* ++++++++++++++++++++++++ */
+
+
 html{
-	font-family: arial;
 }
 body{
 	background-color: #F5F2E3;
@@ -11,16 +51,14 @@ header{
 }
 header img{
 	position: relative;
-	margin: 0;
-	left: 50%;
-	margin-left: -93px;
+	/* margin: 0; */
+	/* left: 50%; */
+	/* margin-left: -93px; */
 }
 .themebox, .categorybox{
 	background-color: #55AF03;
-	font-size: 0.8em;
-	height: 44px;
 }
-.themebox h2, .categorybox h2{
+.themebox h3, .categorybox h3{
 	margin: 0;
 	padding: 10px;
 	text-align: center;
@@ -28,9 +66,9 @@ header img{
 }
 article{
 	background-color: #fff;
-	margin: 10px;
 	padding: 10px;
 	box-sizing: border-box;
+	margin-bottom: 10%;
 }
 article h3{
 	color: #55AF03;
@@ -40,14 +78,15 @@ article p{
 	margin: 0px;
 }
 .buttonBox{
-	margin: 5px;
+	/* margin: 5px; */
 }
 .buttonBox button{
 	background-color: #66CC00;
 	color: #fff;
 	border-style: none;
-	width: 100%;
-	height: 44px;
+	/* width: 100%; */
+	/* height: 44px; */
+	/* font-size: 3.4rem; */
 }
 .buttonBox button:hover{
 	background-color: #55AF03;
